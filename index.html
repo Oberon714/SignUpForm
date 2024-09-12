@@ -3,19 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>D&D Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="left_Side">
-         <img src="Bg.jpg" alt="Background image" class="bg">
-         ,<div class="banner">
-            <img src="Esqueleto.jpeg" alt="logo">
-         </div>
-         
+<div class="left">
+    <div class="skellybox">
+        <img class="skelly" src="Esqueleto.jpeg" alt="skelly logo">
+        <p> Welcome to the beginning of the end</p>
     </div>
-   
+    <div class="bgimg">
+    <p>Photo by Jr Korpa</p>
+    <h5>https://unsplash.com/photos/purple-leafed-trees-under-blue-sky-JKRL7ofWWAA</h5>
+     </div>   
+     
+</div>
+
+<div class="right">
+    <div class="one">
+        <h1>Hello there welcome to the <em>Faeworlds </em>campaign</h2><br>
+        <h2>Where all sorcery dreams come true</h2>
+    </div>
+    <div class="two">
+        <form action="" method="get" class="formMain" id="formulus">
+            <div class="formLeft">
+                <H3>Sign Up Now and begin your journey</H3> <br>
+                <label for="fname">First name:</label><br>
+                 <input type="text" id="fname" name="fname" placeholder="John" required><br>
+                 <label for="email">Email:</label><br>
+                 <input type="email" id="email" name="email"><br>
+                 <label for="password">Password</label><br>
+                 <input type="password" id="password" name="password" required>
+               
+            </div>
+            <div class="formRight">
+                 <label for="lname">Last name:</label><br>
+                 <input type="text" id="lname" name="lname"><br>
+                 <label for="pnumber">Phone Number:</label><br>
+                 <input type="tel" id="pnumber" name="pnumber"><br>
+                 <label for="password">Confirm Password</label><br>
+                 <input type="password" id="2password" name="password" required>
+            </div>
+        </form>
+    </div>
+    <div class="three">
+        <button type="submit" class="joinbtn" form="formulus">Join Now</button>
+        <h3>Already have an account? Log in</h3>
+    </div>
+</div>   
 </body>
 </html>

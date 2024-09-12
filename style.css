@@ -1,1 +1,143 @@
-backround 
+body{
+    font-family: "Bebas Neue", system-ui;
+    display: flex;    
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+   
+}
+      
+/* left and right are the sides of the page*/
+
+.left{
+    background-image: url(purple\ dreams.avif);
+    width: 40vw;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    color: rgb(135, 234, 145);
+    display: flex;
+    flex-direction: column;
+}
+
+.skelly{
+    display: flex;
+  border-radius: 4px;
+  width: 9vw;
+  height: 8vh;
+  flex-direction: row;
+  margin-left: 25px;
+  ;
+ 
+    
+}
+.skellybox{
+    display: flex;
+        background-color: rgba(0, 0, 0, 0.523);
+        color: #000000;
+        flex-direction: row;
+        margin-top: 200px;
+      }
+  
+
+
+ .right{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(236, 20, 193, 0.099);
+        width: 60vw;
+        
+
+ }
+
+.one{
+ height: 35vh;
+ display: flex;
+ justify-content:center;
+ flex-direction:column;
+ margin-left: 150px;
+ 
+}
+
+.two{
+    height: 40vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.formMain{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-bottom: 60px;
+}
+
+.formLeft{
+
+  margin-bottom: 90px;
+  margin-left: 50px; 
+   
+    
+}
+
+.formRight{
+
+    margin-top: 80px;
+    margin-right: 250px;
+   
+    
+}
+
+.three{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.joinbtn{
+    border-radius: 5px;
+    box-shadow: solid#0dc022;
+    background-color: #87e692;
+    width: 10vw;
+ 
+}
+h2{
+    padding-bottom: 100px;
+    margin-right: 60px;
+    color: #5e034bef;
+    flex-direction: row;
+    display: flex;
+  
+}
+h3{
+    color: brown;
+    margin-left: 5px;
+   
+}
+ 
+input{
+    border-radius: 5px;
+    width: 150px;
+    border: 1px, solid;
+}
+input:focus{
+    outline: none !important;
+    border:1px solid rgb(21, 183, 97);
+    box-shadow: 0 0 10px #0dc022;
+   
+}
+input:invalid{
+    outline: none;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+}
+.bgimg{
+    margin-top: 440px;
+    margin-left: 20px;
+}
+p{
+    display: flex;
+    color: #88e893;
+    margin-left: 20px;
+}
